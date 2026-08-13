@@ -80,6 +80,8 @@ export type Worker = (
 	tails?: ServiceDesignator[];
 	streamingTails?: ServiceDesignator[];
 	containerEngine?: Worker_ContainerEngine;
+	accessBlobHeader?: string;
+	accessBindingService?: ServiceDesignator;
 };
 
 export type Worker_DurableObjectStorage =

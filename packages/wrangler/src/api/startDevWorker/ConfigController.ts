@@ -465,6 +465,7 @@ async function resolveConfig(
 		tailConsumers: config.tail_consumers ?? [],
 		experimental: {},
 		streamingTailConsumers: config.streaming_tail_consumers ?? [],
+		access: input.access ?? config.access,
 	} satisfies StartDevWorkerOptions;
 
 	if (

@@ -571,6 +571,9 @@ export interface StartDevWorkerInput {
 	tailConsumers?: CfTailConsumer[];
 	streamingTailConsumers?: CfTailConsumer[];
 
+	/** Cloudflare Access authentication configuration */
+	access?: Config["access"];
+
 	/**
 	 * Whether Wrangler should send usage metrics to Cloudflare for this project.
 	 *
