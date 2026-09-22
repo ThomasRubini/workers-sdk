@@ -1,0 +1,19 @@
+packages/miniflare/src/index.ts
+  s_3870a2a67e4f4a::t_a9a181ace9648b 4,3268-3269,3292
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3bf7dc3d057a20b1613fd6077b365e09f4aec169",
+  "prompts": {},
+  "sessions": {
+    "s_3870a2a67e4f4a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f3b8e1ba4ffeR2503aNhuIj6kZ",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Thomas Rubini <trubini@cloudflare.com>"
+    }
+  }
+}
